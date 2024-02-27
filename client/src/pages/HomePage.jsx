@@ -12,9 +12,11 @@ function HomePage() {
   const navigateToCreateProducts = () => {
     navigate('/Product/Create');
   };
+
   const navigateToEditProducts = (id) => {
     navigate(`/Product/Edit/${id}`)
   };
+  
   const navigateToViewProducts = (id) => {
     navigate(`/Product/View/${id}`)
   };

@@ -8,6 +8,7 @@ function CreateProductForm() {
   const [price, setPrice] = useState("");
   const [description, setDescription] = useState("");
 
+  
   const navigate = useNavigate();
   const handleSubmit = async (event) => {
     event.preventDefault();

@@ -7,6 +7,7 @@ function CreateProductPage() {
   const navigateToHome = () => {
     navigate('/');
   };
+  
   return (
     <div>
       <h1>Create Product Page</h1>

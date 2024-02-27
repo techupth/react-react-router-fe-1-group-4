@@ -33,6 +33,7 @@ function ViewProductPage() {
     return <div>Loading product...</div>; 
   }
 
+  
   if (error) {
     return <div>Error: {error.message}</div>; 
   }
